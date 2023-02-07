@@ -202,8 +202,19 @@ max-height: 30px;
     background-color: #141922;
     width: calc(100vw - 200px);
     height: calc(100vh - 200px);
+    padding-left: 20px;
 
 }
+
+
+#menu-in-evidenza{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+    gap: 20px;
+}
+
 
 
 
