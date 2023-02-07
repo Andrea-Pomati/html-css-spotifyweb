@@ -204,6 +204,7 @@ max-height: 30px;
     height: calc(100vh - 200px);
     padding-left: 20px;
     padding-right: 20px;
+    overflow: auto;
 }
 
 
@@ -213,6 +214,7 @@ max-height: 30px;
     height: 70px;
     align-items: center;
     gap: 20px;
+    
 }
 
 
@@ -255,7 +257,19 @@ max-height: 30px;
 }
 
 
+/* fine sezione album */
 
+/* inizio playlist */
+
+#flex-playlist-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#daily-mix{
+    justify-content: flex-start;
+}
 
 
 
@@ -275,6 +289,11 @@ max-height: 30px;
 
 
 /* footer */
+
+footer{
+    z-index: 1;
+    position: fixed;
+}
 
 #footer-dimensions{
     height: 100px;
