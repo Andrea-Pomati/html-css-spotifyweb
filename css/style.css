@@ -221,18 +221,40 @@ max-height: 30px;
 
 
 #flex-container-album{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+
+.contenitore-album{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+
+.img-container{
+    width: calc(100% / 6 - 30px);
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    
+    align-items: center;
+    gap: 15px;
+}
+
+.img-album{
+    width: 100%;
 
 }
 
-#container-album{
-    display: flex;
-    gap: 30px;
-
+.text-align-center{
+    text-align: center;
 }
+
+
 
 
 
@@ -259,5 +281,6 @@ max-height: 30px;
     width: 100vw;
     background-color: #282828;
 
-
 }
+
+
