@@ -8,6 +8,7 @@
 /* regole generali pagina */
 
 
+/* container sinistra (nav) */
 
 #left-container{
     width: 200px;
@@ -16,16 +17,7 @@
 
 }
 
-
-#top-container{
-    width: calc(100vw - 200px);
-    height: 100px;
-    background-color: #080B12;
-
-
-
-
-}
+/* <!-- flex su bordo schermo sinistro per affiancare l'header alla navbar --> */
 
 #flex-bordo-schermo{
     display: flex;
@@ -35,11 +27,39 @@
 }
 
 
+/* container in alto (header)*/
+
+#top-container{
+    width: calc(100vw - 200px);
+    height: 100px;
+    background-color: #080B12;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+#button-upgrade{
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+
+
+/* <!-- flex per incolonnare l'header sopra al main --> */
+
 #flex-centro{
     display: flex;
     flex-direction: column;
 
 }
+
+/* main section sezione principale */
 
 
 #sezione-principale{
@@ -53,6 +73,20 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
 
 #footer-dimensions{
     height: 100px;
