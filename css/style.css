@@ -24,8 +24,34 @@
     max-width: 130px;
 }
 
+.flex-logo-scritta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.scritte-bianche{
+    color: white;
+
+}
+
+.scritte-grigie{
+    color: #5D5D5D;
 
 
+}
+
+.loghi-home-libreria{
+max-height: 30px;
+
+}
+
+.contenitore-da-home-a-libreria{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
 /* <!-- flex su bordo schermo sinistro per affiancare l'header alla navbar --> */
 
