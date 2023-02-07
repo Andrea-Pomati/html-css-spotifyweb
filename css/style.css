@@ -15,3 +15,49 @@
     background-color:#000000;
 
 }
+
+
+#top-container{
+    width: calc(100vw - 200px);
+    height: 100px;
+    background-color: #080B12;
+
+
+
+
+}
+
+#flex-bordo-schermo{
+    display: flex;
+
+
+
+}
+
+
+#flex-centro{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#sezione-principale{
+    background-color: #141922;
+    width: calc(100vw - 200px);
+    height: calc(100vh - 200px);
+
+}
+
+
+
+
+
+
+#footer-dimensions{
+    height: 100px;
+    width: 100vw;
+    background-color: #282828;
+
+
+}
