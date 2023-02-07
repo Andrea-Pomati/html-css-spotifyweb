@@ -47,7 +47,7 @@ max-height: 30px;
 
 }
 
-.contenitore-da-home-a-libreria{
+#contenitore-da-home-a-libreria{
     display: flex;
     flex-direction: column;
     gap: 15px;
