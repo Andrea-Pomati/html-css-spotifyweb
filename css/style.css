@@ -100,10 +100,25 @@ max-height: 30px;
 /* da installa a john doe */
 
 
+#installa-app-e-logo{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+#download-logo{
+    max-height: 20px;
+    margin-left: -6px
+
+}
 
 
+#riga-grigia{
+    border: 1px solid #424242;
+    max-width: 170px;
 
-
+}
 
 
 
