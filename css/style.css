@@ -16,7 +16,9 @@
     background-color:#000000;
     padding-left: 20px;
     padding-top: 25px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -100,6 +102,12 @@ max-height: 30px;
 /* da installa a john doe */
 
 
+#container-da-installa-a-john-doe{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 #installa-app-e-logo{
     display: flex;
     flex-direction: row;
@@ -120,6 +128,21 @@ max-height: 30px;
 
 }
 
+#john-doe{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-left: -5px;
+
+}
+
+#profile-logo{
+    max-height: 22px;
+    background-color: #80808080;
+    border-radius: 50%;
+}
 
 
 
