@@ -307,6 +307,7 @@ footer{
 
 }
 
+/* footer-left */
 
 #footer-left{
     width: 100%;
@@ -319,6 +320,8 @@ footer{
 
 }
 
+/* album cover */
+
 .album-cover{
     height: 100%;
 
@@ -327,4 +330,10 @@ footer{
 
 #sinister-footer{
     height: 100%;
+}
+
+/*fine album cover  */
+
+.fa-heart, .fa-folder {
+    color: white;
 }
