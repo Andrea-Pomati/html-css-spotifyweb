@@ -214,6 +214,7 @@ max-height: 30px;
     height: 70px;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
     
 }
 
@@ -298,9 +299,6 @@ max-height: 30px;
 footer{
     z-index: 1;
     position: fixed;
-}
-
-#footer-dimensions{
     height: 100px;
     width: 100vw;
     background-color: #282828;
