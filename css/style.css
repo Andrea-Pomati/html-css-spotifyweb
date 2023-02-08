@@ -36,6 +36,11 @@
     max-width: 130px;
 }
 
+#small-logo-spotify{
+    max-width: 40px;
+    display: none
+}
+
 .flex-logo-scritta{
     display: flex;
     flex-direction: row;
@@ -433,7 +438,7 @@ footer{
 
   /* media query medium */
 
- @media screen and (max-width: 991px) and (min-width:767px){
+ @media screen and (max-width: 991px) and (min-width:769px){
 
     .img-container{
     
@@ -457,7 +462,7 @@ footer{
 
 /* media query small */
 
-@media screen and (max-width: 767px) and (min-width:577px){
+@media screen and (max-width: 768px) and (min-width:577px){
 
     .img-container{
     
@@ -478,3 +483,34 @@ footer{
 
 }
 
+/* media query extra small */
+
+@media screen and (max-width: 576px) {
+    
+    
+    .img-container{
+    
+        width: calc(100% / 2 - 30px);
+        
+        }
+    
+        .contenitore-album{
+            flex-wrap: wrap;
+            justify-content: flex-start;
+    
+        }
+    
+        #menu-in-evidenza{
+    
+            margin-bottom: 80px;
+        }
+    
+        #logo-spotify{
+            display: none;
+        }
+
+        #small-logo-spotify{
+            display: block;
+
+        }
+}
