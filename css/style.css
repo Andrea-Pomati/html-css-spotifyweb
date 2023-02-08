@@ -513,4 +513,26 @@ footer{
             display: block;
 
         }
+
+        .nascondi-elemento{
+            display: none;
+
+
+        }
+
+        #left-container{
+            width: 70px;
+        }
+
+        #top-container{
+            width: calc(100vh - 70px);
+        }
+
+        #sezione-principale{
+            width: calc(100vh - 70px);
+        }
+
+        footer{
+            width: 100%;
+        }
 }
