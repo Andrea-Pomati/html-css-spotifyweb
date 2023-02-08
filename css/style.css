@@ -302,7 +302,29 @@ footer{
     height: 100px;
     width: 100vw;
     background-color: #282828;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 
+#footer-left{
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 24px 10px;
+
+}
+
+.album-cover{
+    height: 100%;
+
+
+}
+
+#sinister-footer{
+    height: 100%;
+}
