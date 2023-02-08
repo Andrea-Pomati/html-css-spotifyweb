@@ -412,6 +412,11 @@ footer{
 
   #footer-right {
     width: 100%;
-    max-width: 240px;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 24px 10px;
   
   }
