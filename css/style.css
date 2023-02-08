@@ -187,7 +187,11 @@ max-height: 30px;
     background-color: transparent;
     padding: 10px 30px;
     border-radius: 30px;
-    margin-right: 5px;
+    margin-right: 20px;
+}
+
+#button-upgrade:hover{
+    transform: scale(110%);
 }
 
 
