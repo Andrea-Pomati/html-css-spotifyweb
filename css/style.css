@@ -7,6 +7,20 @@
 
 /* regole generali pagina */
 
+/* hover */
+
+.pulsante-bianco:hover{
+    color: white;
+}
+
+.fa-plus:hover{
+    background-color: white;
+}
+
+.player-timeline-bar-current:hover{
+    background-color: lime;
+}
+/* /hover */
 
 /* container sinistra (nav) */
 
@@ -538,5 +552,20 @@ footer{
 
         footer{
             width: 100%;
+        }
+
+
+/* prove */
+
+        #flex-centro{
+             width: calc(100vh - 70px);
+             flex-wrap: wrap;
+
+
+        }
+
+        nav{
+             width: calc(100vh - 70px);
+
         }
 }
