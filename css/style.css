@@ -558,7 +558,7 @@ footer{
 /* prove */
 
         #flex-centro{
-             width: calc(100vh - 70px);
+             width: calc(100vw - 70px);
              flex-wrap: wrap;
 
 
